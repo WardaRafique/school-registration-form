@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Horizon Institute Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Horizon Institute and Academy</h2>
+    <p class="subtitle">Empowering Young Minds for a Bright Future</p>
+     
+    <form>
+<p><u>Parents Information</u></p>
+
+        <label>Father's Name</label>
+        <input type="text" name="fatherName" required>
+
+        <label>Mother's Name</label>
+        <input type="text" name="motherName">
+
+         <label>Phone Number (Father)</label>
+        <input type="text" name="phoneNumber(father)">
+
+        <label>Phone Number (Mother)</label>
+        <input type="text" name="phoneNumber(mother)">
+
+        <label>Email address(if any) </label>
+        <input type="email" name="email">
+ 
+<p><u>Student Information</u></p>
+
+        <label>Full Name of Student</label>
+        <input type="text" name="studentName">
+
+        <label>Date of Birth</label>
+        <input type="date" name="DOB" required>
+
+     <div class="gender-container">
+    <label class="gender-label">Gender:</label>
+    
+    <label class="gender-option">
+      <input type="radio" name="gender" value="male"> Male
+    </label>
+
+    <label class="gender-option">
+      <input type="radio" name="gender" value="female"> Female
+    </label>
+  </div>
+
+
+
+        <label>Class Applying For</label>
+        <input type="text" name="class">
+
+        <label>Current/Previous School if </label>
+        <input type="text" name="school_name">
+
+        <label>Address (Residential)</label>
+        <textarea name="address" ></textarea>
+<div class="declaration-line">
+  <input type="checkbox" id="declaration">
+  <label for="declaration">
+    I hereby declare that all the information provided above is true to the best of my knowledge.
+    I agree to abide by the rules and regulations of Horizon Student Academies.
+  </label>
+</div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
